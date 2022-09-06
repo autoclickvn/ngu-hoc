@@ -1,12 +1,15 @@
 // import UseState from './hooks/useState';
 
-import ChildrenReact from "Children";
+import CloneElement from "cloneElement";
+
+// import ChildrenReact from "Children";
 
 function App() {
   return (
     <div className="App">
       {/* <UseState /> */}
-      <ChildrenReact />
+      {/* <ChildrenReact /> */}
+      <CloneElement />
     </div>
   );
 }
